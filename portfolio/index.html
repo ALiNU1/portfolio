@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+</head>
+<body>
+    <div class="container">
+        <div class="githubimage">
+            <a href="https://github.com" target="_blank"><img src="media/github.png" alt="github image" class="logo"></a>
+            <a href="https://www.instagram.com/itsaallicho/" target="_blank"class="alicho"><img src="media/instagrama .png" alt="" class="myinsta"></a>
+        </div>
+        <body>
+            <div class="button">
+              <div class="toggle">
+                <input type="checkbox">
+              </div>
+              <div class="text"></div>
+            </div>
+            <div class="nav">
+                <p class="logotodo">
+                    <img src="media/unnamed.png" alt="изображение в центре параграфа" />
+                    <h3>TO-DO</h3>
+                    <h5>TO-DO LIST сделанный на Django <br>
+                        в нём есть CRUD система <br>
+                        и система авторизации 
+                    </h5>
+                </p>
+                <button class="todobtn"><span>Посетить</span></button>
+                <p class="online">
+                    <img src="media/lalafo.jpg" alt="Онлайн магазин" class="onlinelogo">
+                    <h3>Клон Lalafo</h3>
+                    <h5>Это клон известного интернет магазина Lalafo <br>
+                        в нём так же есть CRUD система <br>
+                        авторизация можно постить объевления <br>
+                        редактирокать их так же <br>
+                        добавлять избранные активировать посты <br>
+                        деактивировать
+                    </h5>
+                    <button class="todobtn" style="vertical-align:middle"><span>Посетить</span></button>
+                </p>
+                <p class="instagram">
+                    <img src="media/instagrama .png" alt="Blog" class="insta">
+                    <h3>Blog</h3>
+                    <h5>Это аналог Инстаграма здесь есть всё <br>
+                        кроме сторисов CRUD система, поиск, <br>
+                        удаление аккаунта, редактирование аккаунта<br>
+                        авторизация, лайки комменты
+                    </h5>
+                    <button class="todobtn"><span>Посетить</span></button>
+                </p>
+            </div>
+            <br>
+        <p></p>
+        <footer class="footer">
+   
+        </footer>    
+        
+        
+            <script>//for change text (Unchecked to checked) on click
+                document.querySelector('.toggle').addEventListener('click', function(){
+                document.querySelector('.text').classList.toggle('check');
+                });
+            </script>
+    </div>
+</body>
+</html>
